@@ -1,0 +1,56 @@
+body {
+  background-color: black;
+}
+
+
+.rgb-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 15px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+}
+
+.color-box {
+  display: flex;
+  margin: 15px;
+}
+
+.hex-text{
+  background-color: white;
+  width: 200px;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-size: 40px;
+  opacity: 0.5;
+}
+
+.red {
+  background-color: red;
+  text-align: center;
+  width: 2em;
+  height: 1em;
+  border: 0.1rem solid  black;
+  border-radius: 15%;
+}
+
+.green {
+  background-color: green;
+  text-align: center;
+  width: 2em;
+  height: 1em;
+  color: white;
+  border: 0.1rem solid  black;
+  border-radius: 15%;
+}
+
+.blue {
+  background-color: blue;
+  text-align: center;
+  width: 2em;
+  height: 1em;
+  color: white;
+  border: 0.1rem solid  black;
+  border-radius: 15%;
+}
